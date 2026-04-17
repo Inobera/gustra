@@ -25,7 +25,7 @@ import {
   Mail,
 } from "lucide-react";
 
-const PHONE = "+370 68585329";
+const PHONE = "+37068585329";
 const PHONE_HREF = "tel:+37068585329";
 
 const HERO_IMG =
