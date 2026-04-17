@@ -152,7 +152,6 @@ function vitePluginManusDebugCollector(): Plugin {
 const plugins = [react(), tailwindcss(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
 
 export default defineConfig({
-  base: '/gustra/',
   plugins,
   resolve: {
     alias: {
@@ -184,4 +183,5 @@ export default defineConfig({
       deny: ["**/.*"],
     },
   },
+  base: "/gustra/",
 });
